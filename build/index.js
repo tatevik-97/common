@@ -22,3 +22,4 @@ __exportStar(require("./errors/NotFoundError"), exports);
 __exportStar(require("./errors/RequestValidationerror"), exports);
 __exportStar(require("./middlewares/errorHandler"), exports);
 __exportStar(require("./middlewares/validateRequest"), exports);
+__exportStar(require("./middlewares/currentUser"), exports);
