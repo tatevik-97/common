@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from "express";
 import jwt from "jsonwebtoken";
 import { UserPayload } from "../types/types";
-import {NotAuthorizedError} from "../../build";
+import {NotAuthorizedError} from "../errors/NotAuthorizedError";
 
 export const currentUser = async (
   req: Request,
